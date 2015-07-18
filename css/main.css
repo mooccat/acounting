@@ -1,0 +1,140 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+/*首页--我的记账薄*/
+header{
+    width: 100%;
+    height: 180px;;
+    background: url("../images/bg1.jpg") repeat;
+}
+header h1{
+    text-align: center;
+    width: 50%;
+    margin:0px auto;
+    padding: 20px;
+    background: rgba(0,0,0,0.2);
+    color: #C84137;
+}
+
+.content h2{
+    margin: 0px;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 2px solid #cccccc;
+}
+.content span{
+    display: block;
+    margin-top: 10px;
+}
+.left{
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+.right{
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+
+#btn-add{
+    position: absolute;
+    top: 113px;
+    left: 50%;
+    margin-left: -64px;
+}
+
+#account{
+    position: relative;
+    top: 55px;
+    width: 100%;
+    background: url("../images/spine.png") repeat-y center;
+}
+
+.in,.out{
+    margin-top: 20px;
+}
+
+.in{
+    margin-left: 0%;
+    width: 50%;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    clear: both;
+}
+.in a{
+    text-decoration: none;
+}
+.in img{
+    float:right;
+    margin-right: -16px;
+}
+
+
+.out{
+    margin-left: 50%;
+    width: 50%;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+.out a{
+    text-decoration: none;
+}
+.out img{
+    float: left;
+    margin-left: -16px;
+}
+
+/*add页面*/
+.add-bar {
+    height: 60px;
+    width: 100%;
+    background: #777777;
+}
+.add-bar a{
+    line-height: 60px;
+    padding: 2px;
+    text-decoration: none;
+    background: #C84137;
+    border: 2px solid #C84137;
+    border-radius: 2px;
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 26px;
+}
+.add ul li{
+    float: left;
+    width: 18%;
+    padding: 1%;
+    text-align: center;
+}
+/*图标*/
+.icon{
+     width: 33px;
+     height: 33px;
+     background: url("../images/all-246-icons-mini.png") -22px -15px;
+ }
+.icon1{
+    width: 65px;
+    height: 65px;
+    background: url("../images/all-246-icons.png") -44px -30px;
+}
